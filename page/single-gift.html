@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>BASIC THEME</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" as="style">
+
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="assets/css/fontawesome.min.css" /> -->
+    <link rel="stylesheet" href="../assets/css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/boostrap.css" />
+    <link rel="stylesheet" href="../assets/css/theme.css" />
+    <link rel="stylesheet" href="../assets/libs/slick/slick-theme.css" />
+    <link rel="stylesheet" href="../assets/libs/slick/slick.css" />
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-width-search">
+                        <div class="header__mobile-search-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="header__logo">
+                            <a href="../index.html" class="header__logo-text">TIBE</a>
+                        </div>
+                        <div class="header__search">
+                            <form action="" class="header__search-form">
+                                <div class="header__search-form-group">
+                                    <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm quà tặng">
+                                    <button type="submit" class="header__search-btn">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="header__shop">
+                            <a href="https://shopee.vn/" class="header__shop-link" target="_blank">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </div>
+                        <div class="header__right-mobile">
+                            <div class="header__mobile-shop">
+                                <a href="https://shopee.vn/" class="header__shop-link" target="_blank">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </div>
+                            <div class="header__mobile-btn-menu">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-main-menu">
+                        <div class="header__menu-toolbar">
+                            <div class="header__menu-toolbar-logo">
+                                <a href="../index.html" class="header__menu-toolbar-logo-text">TIBE</a>
+                            </div>
+                            <div class="header__menu-toolbar-btn-close">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                        <div class="header__menu">
+                            <ul class="header__menu-list">
+                                <li class="menu-item">
+                                    <a href="../index.html">Trang chủ</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="about.html">Giới thiệu</a>
+                                </li>
+                                <li class="menu-item menu-item-has-children">
+                                    <a href="gift.html">Quà tặng</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item">
+                                            <a href="gift.html">Quà tặng bạn nam</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="gift.html">Quà tặng bạn nữ</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="gift.html">Quà tặng bạn bè</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="gift.html">Quà tặng gia đình</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="blog.html">Blog</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="contact.html">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__social">
+                            <ul class="header__social-list">
+                                <li class="header__social-list-item">
+                                    <a href="" class="header__social-list-item-link" target="_blank">
+                                        <i class="fa-brands fa-facebook-f header__social-list-item-icon"></i>
+                                    </a>
+                                </li>
+                                <li class="header__social-list-item">
+                                    <a href="" class="header__social-list-item-link" target="_blank">
+                                        <i class="fa-brands fa-instagram header__social-list-item-icon"></i>
+                                    </a>
+                                </li>
+                                <li class="header__social-list-item">
+                                    <a href="" class="header__social-list-item-link" target="_blank">
+                                        <i class="fa-brands fa-tiktok header__social-list-item-icon"></i>
+                                    </a>
+                                </li>
+                                <li class="header__social-list-item" target="_blank">
+                                    <a href="https://shopee.vn/" class="header__social-list-item-link">
+                                        <i class="fa-solid fa-shop header__social-list-item-icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="breadcrumb">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb">
+                        <a href="../index.html">Trang chủ</a>
+                        <span>/</span>
+                        <a href="blog.html">Christmas gifts</a>
+                        <span>/</span>
+                        <span class="current">The Best Way To Wrap Gifts</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section section-product-detail">
+        <div class="container">
+            <div class="row product__detail">
+                <div class="col-lg-6">
+                    <div class="product__detail-thumbnail">
+                        <div class="img-wrap">
+                            <img src="../assets/images/product.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="product__detail-info">
+                        <h2 class="product__detail-name">Stuffed Toy</h2>
+                        <div class="product__detail-meta">
+                            <span class="product__meta-sku">
+                                SKU:
+                                <span>TIBE-338</span>
+                            </span>
+                            <span class="product__meta-category">
+                                Category:
+                                <span>Gấu</span>
+                            </span>
+                        </div>
+                        <div class="product__detail-price">
+                            <span>
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                            </span>
+                            <span>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                        </div>
+                        <div class="product__detail-excerpt">
+                            An dico accommodare ius, porro mnesarchum pro in. Cetero fierent urbanitas eam id, sed movet voluptua ut. Eu agam malorum nec. Eu has vide putent, dico option nominati no eam. Ea erant impetus consequuntur eos, velit congue vidisse eos ne.
+                        </div>
+                        <div class="product__detail-add-to-cart">
+                            <a href="https://shopee.vn/" class="btn btn-add-to-cart" target="_blank">Mua ngay</a>
+                        </div>
+                        <div class="product__detail-share">
+                            <span class="product__share-title">Share: </span>
+                            <a href="" class="btn-text btn-share">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row product__description">
+                <div class="col-12">
+                    <ul class="product__description-tabs">
+                        <li class="product__description-tabs-link active" data-tab="tab-1">Description</li>
+                        <li class="product__description-tabs-link" data-tab="tab-2">Reviews</li>
+                    </ul>
+                    <div id="tab-1" class="product__description-tab-content show">
+                        <div class="entry-post-content">
+                            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                                <p>Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Etiam rhoncus. Nunc interdum lacus sit amet orci. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.</p>
+                                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                                <p>Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Aenean commodo ligula eget dolor. Nulla facilisi. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Etiam rhoncus. Nunc interdum lacus sit amet orci. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.</p>
+                                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                                <p>Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Etiam rhoncus. Nunc interdum lacus sit amet orci. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.</p>
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                                <p>Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Aenean commodo ligula eget dolor. Nulla facilisi. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+                                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                                <p>Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Etiam rhoncus. Nunc interdum lacus sit amet orci. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.</p>
+                        </div>
+                    </div>
+                    <div id="tab-2" class="product__description-tab-content">
+                        <ul class="product__description-list-review">
+                            <li class="product__description-list-review-item">
+                                <div class="product__description-list-review-item-wrapper">
+                                    <div class="product__description-list-review-item-thumbnail">
+                                        <img src="../assets/images/avatar.png" alt="">
+                                    </div>
+                                    <div class="product__description-list-review-item-comment">
+                                        <div class="product__description-list-review-item-comment-des">
+                                            <p>The team @gift-ribbon were prompt in responding, flexible with the size I was after, shipped the artwork immediately – but most importantly we loved the piece.</p>
+                                        </div>
+                                        <div class="product__description-list-review-item-comment-meta">
+                                            <div class="star-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p class="comment-name">Chung Pham</p>
+                                            <span class="comment-date">August 10, 2022</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product__description-list-review-item">
+                                <div class="product__description-list-review-item-wrapper">
+                                    <div class="product__description-list-review-item-thumbnail">
+                                        <img src="../assets/images/avatar.png" alt="">
+                                    </div>
+                                    <div class="product__description-list-review-item-comment">
+                                        <div class="product__description-list-review-item-comment-des">
+                                            <p>The team @gift-ribbon were prompt in responding, flexible with the size I was after, shipped the artwork immediately – but most importantly we loved the piece.</p>
+                                        </div>
+                                        <div class="product__description-list-review-item-comment-meta">
+                                            <div class="star-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p class="comment-name">Chung Pham</p>
+                                            <span class="comment-date">August 10, 2022</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product__description-list-review-item">
+                                <div class="product__description-list-review-item-wrapper">
+                                    <div class="product__description-list-review-item-thumbnail">
+                                        <img src="../assets/images/avatar.png" alt="">
+                                    </div>
+                                    <div class="product__description-list-review-item-comment">
+                                        <div class="product__description-list-review-item-comment-des">
+                                            <p>The team @gift-ribbon were prompt in responding, flexible with the size I was after, shipped the artwork immediately – but most importantly we loved the piece.</p>
+                                        </div>
+                                        <div class="product__description-list-review-item-comment-meta">
+                                            <div class="star-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p class="comment-name">Chung Pham</p>
+                                            <span class="comment-date">August 10, 2022</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="product__description-list-review-item">
+                                <div class="product__description-list-review-item-wrapper">
+                                    <div class="product__description-list-review-item-thumbnail">
+                                        <img src="../assets/images/avatar.png" alt="">
+                                    </div>
+                                    <div class="product__description-list-review-item-comment">
+                                        <div class="product__description-list-review-item-comment-des">
+                                            <p>The team @gift-ribbon were prompt in responding, flexible with the size I was after, shipped the artwork immediately – but most importantly we loved the piece.</p>
+                                        </div>
+                                        <div class="product__description-list-review-item-comment-meta">
+                                            <div class="star-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p class="comment-name">Chung Pham</p>
+                                            <span class="comment-date">August 10, 2022</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Related Product -->
+    <section class="section section-related-product">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="block-title text-center">
+                        <h2 class="title">Related products</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row product__list">
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="../assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="single-gift.html">List Notebook</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="../assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="single-gift.html">List Notebook</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="../assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="single-gift.html">List Notebook</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="../assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="single-gift.html">List Notebook</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Related Product -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer__main">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-3">
+                                <div class="footer__widget">
+                                    <h3 class="footer__widget-title footer__widget-title-info">TIBE</h3>
+                                    <div class="footer__widget-box-content">
+                                        <p>196 Newmarket Road, Wilston 4051 Brisbane Queensland</p>
+                                        <p>PARKING IN FRONT & BEHIND STORE</p>
+                                        <p>phone: 07 3856 2000</p>
+                                        <p>email: divine@divineflowers.com.au</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="footer__widget">
+                                    <h3 class="footer__widget-title">Liên kết hữu ích</h3>
+                                    <ul class="footer__widget-list">
+                                        <li class="menu-item">
+                                            <a href="about.html">Giới thiệu</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="blog.html">Blog</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="faq.html">FAQ</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="contact.html">Liên hệ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="footer__widget">
+                                    <h3 class="footer__widget-title">Quà tặng</h3>
+                                    <ul class="footer__widget-list">
+                                        <li class="menu-item">
+                                            <a href="gift.html">Quà tặng bạn nam</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="gift.html">Quà tặng bạn nữ</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="gift.html">Quà tặng bạn bè</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="gift.html">Quà tặng gia đình</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="footer__widget">
+                                    <h3 class="footer__widget-title">Theo dõi chúng tôi</h3>
+                                    <ul class="footer__widget-list-social">
+                                        <li class="footer__widget-list-social-item">
+                                            <a href="">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li class="footer__widget-list-social-item">
+                                            <a href="">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="footer__widget-list-social-item">
+                                            <a href="">
+                                                <i class="fa-brands fa-tiktok"></i>
+                                            </a>
+                                        </li>
+                                        <li class="footer__widget-list-social-item">
+                                            <a href="">
+                                                <i class="fa-solid fa-shop header__social-list-item-icon"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer__copyright">
+                        <p>Copyright © 2022 Tibe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+    <!-- End Overlay -->
+
+    <!-- Script -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/libs/slick/slick.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

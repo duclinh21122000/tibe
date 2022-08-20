@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>BASIC THEME</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" as="style">
+
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="assets/css/fontawesome.min.css" /> -->
+    <link rel="stylesheet" href="assets/css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/boostrap.css" />
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <link rel="stylesheet" href="assets/libs/slick/slick-theme.css" />
+    <link rel="stylesheet" href="assets/libs/slick/slick.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-width-search">
+                        <div class="header__mobile-search-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="header__logo">
+                            <a href="index.html" class="header__logo-text">TIBE</a>
+                        </div>
+                        <div class="header__search">
+                            <form action="" class="header__search-form">
+                                <div class="header__search-form-group">
+                                    <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm quà tặng">
+                                    <button type="submit" class="header__search-btn">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="header__shop">
+                            <a href="https://shopee.vn/" class="header__shop-link" target="_blank">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </div>
+                        <div class="header__right-mobile">
+                            <div class="header__mobile-shop">
+                                <a href="https://shopee.vn/" class="header__shop-link" target="_blank">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </div>
+                            <div class="header__mobile-btn-menu">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-main-menu">
+                        <div class="header__menu-toolbar">
+                            <div class="header__menu-toolbar-logo">
+                                <a href="index.html" class="header__menu-toolbar-logo-text">TIBE</a>
+                            </div>
+                            <div class="header__menu-toolbar-btn-close">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                        <div class="header__menu">
+                            <ul class="header__menu-list">
+                                <li class="menu-item">
+                                    <a href="index.html">Trang chủ</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page/about.html">Giới thiệu</a>
+                                </li>
+                                <li class="menu-item menu-item-has-children">
+                                    <a href="page/gift.html">Quà tặng</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item">
+                                            <a href="page/gift.html">Quà tặng bạn nam</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="page/gift.html">Quà tặng bạn nữ</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="page/gift.html">Quà tặng bạn bè</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="page/gift.html">Quà tặng gia đình</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page/blog.html">Blog</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page/contact.html">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__social">
+                            <ul class="header__social-list">
+                                <li class="header__social-list-item">
+                                    <a href="" class="header__social-list-item-link" target="_blank">
+                                        <i class="fa-brands fa-facebook-f header__social-list-item-icon"></i>
+                                    </a>
+                                </li>
+                                <li class="header__social-list-item">
+                                    <a href="" class="header__social-list-item-link" target="_blank">
+                                        <i class="fa-brands fa-instagram header__social-list-item-icon"></i>
+                                    </a>
+                                </li>
+                                <li class="header__social-list-item">
+                                    <a href="" class="header__social-list-item-link" target="_blank">
+                                        <i class="fa-brands fa-tiktok header__social-list-item-icon"></i>
+                                    </a>
+                                </li>
+                                <li class="header__social-list-item" target="_blank">
+                                    <a href="https://shopee.vn/" class="header__social-list-item-link">
+                                        <i class="fa-solid fa-shop header__social-list-item-icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Slider Banner -->
+    <section class="section-banner">
+        <div class="slider__banner">
+            <div class="slider__banner-item">
+                <div class="img-wrap slider__banner-item-image">
+                    <img src="assets/images/banner-1.jpg" alt="">
+                </div>
+                <div class="slider__banner-content">
+                    <h1 class="slider__banner-content-title">Quà tặng cho bạn gái</h1>
+                    <p class="slider__banner-content-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="page/gift.html" class="btn slider__banner-content-link">Chọn quà</a>
+                </div>
+            </div>
+            <div class="slider__banner-item">
+                <div class="img-wrap slider__banner-item-image">
+                    <img src="assets/images/banner-2.jpg" alt="">
+                </div>
+                <div class="slider__banner-content">
+                    <h1 class="slider__banner-content-title">Quà tặng cho gia đình</h1>
+                    <p class="slider__banner-content-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="page/gift.html" class="btn slider__banner-content-link">Chọn quà</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Slider Banner -->
+
+    <!-- Section Choose Gift -->
+    <section class="section section-choose-gift">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="block-title text-center">
+                        <h2 class="title">Chọn Quà Tặng</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="choose__gift-wrapper">
+                        <div class="choose__gift-wrapper-item choose__gift-wrapper-item-image">
+                            <div class="img-wrap">
+                                <img src="assets/images/image-8-3.png" alt="">
+                                <div class="choose__gift-wrapper-item-content">
+                                    <h3 class="choose__gift-wrapper-item-content-title">Quà Tặng 8/3</h3>
+                                    <div class="choose__gift-wrapper-item-content-des">Lựa chọn món quà dành riêng cho 8/3 này nhé</div>
+                                    <a href="page/gift.html" class="btn choose__gift-wrapper-item-content-link">Tìm quà</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="choose__gift-wrapper-item">
+                            <div class="choose__gift-wrapper-item-top">
+                                <ul class="choose__gift-wrapper-item-top-list">
+                                    <li class="choose__gift-wrapper-item-top-list-item">
+                                        <a href="page/gift.html">
+                                            <span>Quà tặng bạn gái</span>
+                                        </a>
+                                    </li>
+                                    <li class="choose__gift-wrapper-item-top-list-item">
+                                        <a href="page/gift.html">
+                                            <span>Quà tặng bạn gái</span>
+                                        </a>
+                                    </li>
+                                    <li class="choose__gift-wrapper-item-top-list-item">
+                                        <a href="page/gift.html">
+                                            <span>Quà tặng bạn gái</span>
+                                        </a>
+                                    </li>
+                                    <li class="choose__gift-wrapper-item-top-list-item">
+                                        <a href="page/gift.html">
+                                            <span>Quà tặng bạn gái</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="choose__gift-wrapper-item-bottom">
+                                <div class="choose__gift-wrapper-item-bottom-wrap">
+                                    <div class="choose__gift-wrapper-item-bottom-item">
+                                        <div class="img-wrap">
+                                            <img src="assets/images/image-birthday.jfif" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="choose__gift-wrapper-item-bottom-item">
+                                        <div class="choose__gift-wrapper-item-bottom-item-content">
+                                            <h3 class="choose__gift-wrapper-item-bottom-item-content-title">Combo Quà Tặng</h3>
+                                            <div class="choose__gift-wrapper-item-bottom-item-content-des">
+                                                Combo là tổng hợp những món quà TIBE đã thiết kế sẵn từ 3 đến 4 item  cùng với đó bạn có thể gắn lời nhắn VIDEO của mình ...
+                                            </div>
+                                            <a href="page/gift.html" class="choose__gift-wrapper-item-bottom-item-content-link">
+                                                Đặt mua ngay
+                                                <i class="fa-solid fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Choose Gift -->
+
+    <!-- Section Product -->
+    <section class="section section-product">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="block-title text-center">
+                        <h2 class="title">Shop Best Seller</h2>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row product__list">
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="page/single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="page/single-gift.html">Teddy Bear</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="page/single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="page/single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="page/single-gift.html">Scarves</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="page/single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="page/single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="page/single-gift.html">Toy Model</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="page/single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="page/single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="page/single-gift.html">Teddy Bear Long</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="page/single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="page/single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="page/single-gift.html">List Notebook</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="page/single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="page/single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="page/single-gift.html">Trollex Character Model</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="page/single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="page/single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="page/single-gift.html">Stuffed Toy</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="page/single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="page/single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="page/single-gift.html">Plain Ceramic Cup</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="page/single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Product -->
+
+    <!-- Section Category Gift -->
+    <section class="section section-category-gift">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="block-title text-center">
+                        <h2 class="title">Loại Quà Tặng </h2>
+                        <span class="sub-title">Chọn loại quà tặng thích hợp với người thương của bạn</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row list-category-gift">
+                <div class="col-4 col-md-4 col-lg-3 list-category-gift__item">
+                    <a href="page/gift.html" class="list-category-gift__item-wrapper">
+                        <img src="../assets/images/img-ca-nhan-hoa.png" alt="" class="list-category-gift__item-image">
+                        <h3 class="list-category-gift__item-title">Cá Nhân Hóa</h3>
+                    </a>
+                </div>
+                <div class="col-4 col-md-4 col-lg-3 list-category-gift__item">
+                    <a href="page/gift.html" class="list-category-gift__item-wrapper">
+                        <img src="../assets/images/img-ca-nhan-hoa.png" alt="" class="list-category-gift__item-image">
+                        <h3 class="list-category-gift__item-title">Cá Nhân Hóa</h3>
+                    </a>
+                </div>
+                <div class="col-4 col-md-4 col-lg-3 list-category-gift__item">
+                    <a href="page/gift.html" class="list-category-gift__item-wrapper">
+                        <img src="../assets/images/img-ca-nhan-hoa.png" alt="" class="list-category-gift__item-image">
+                        <h3 class="list-category-gift__item-title">Cá Nhân Hóa</h3>
+                    </a>
+                </div>
+                <div class="col-4 col-md-4 col-lg-3 list-category-gift__item">
+                    <a href="page/gift.html" class="list-category-gift__item-wrapper">
+                        <img src="../assets/images/img-ca-nhan-hoa.png" alt="" class="list-category-gift__item-image">
+                        <h3 class="list-category-gift__item-title">Cá Nhân Hóa</h3>
+                    </a>
+                </div>
+                <div class="col-4 col-md-4 col-lg-3 list-category-gift__item">
+                    <a href="page/gift.html" class="list-category-gift__item-wrapper">
+                        <img src="../assets/images/img-ca-nhan-hoa.png" alt="" class="list-category-gift__item-image">
+                        <h3 class="list-category-gift__item-title">Cá Nhân Hóa</h3>
+                    </a>
+                </div>
+                <div class="col-4 col-md-4 col-lg-3 list-category-gift__item">
+                    <a href="page/gift.html" class="list-category-gift__item-wrapper">
+                        <img src="../assets/images/img-ca-nhan-hoa.png" alt="" class="list-category-gift__item-image">
+                        <h3 class="list-category-gift__item-title">Cá Nhân Hóa</h3>
+                    </a>
+                </div>
+                <div class="col-4 col-md-4 col-lg-3 list-category-gift__item">
+                    <a href="page/gift.html" class="list-category-gift__item-wrapper">
+                        <img src="../assets/images/img-ca-nhan-hoa.png" alt="" class="list-category-gift__item-image">
+                        <h3 class="list-category-gift__item-title">Cá Nhân Hóa</h3>
+                    </a>
+                </div>
+                <div class="col-4 col-md-4 col-lg-3 list-category-gift__item">
+                    <a href="gift.html" class="list-category-gift__item-wrapper">
+                        <h3 class="list-category-gift__item-title">Xem thêm</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Category Gift -->
+
+    <!-- Section Product -->
+    <section class="section section-product">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="block-title text-center">
+                        <h2 class="title">Featured Products</h2>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row product__list">
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="page/single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="page/single-gift.html">List Notebook</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="page/single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="page/single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="page/single-gift.html">Trollex Character Model</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="page/single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="page/single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="page/single-gift.html">Stuffed Toy</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="page/single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 product__list-item">
+                    <div class="product__list-item-card">
+                        <div class="product__list-item-thumbnail">
+                            <a href="page/single-gift.html" class="product__list-item-thumbnail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/product.jpg" alt="" class="product__list-item-thumbnail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__list-item-info">
+                            <h3 class="product__list-item-info-name">
+                                <a href="page/single-gift.html">Plain Ceramic Cup</a>
+                            </h3>
+                            <span class="product__list-item-info-price">
+                                <del>
+                                    <span>200.000VNĐ</span>
+                                </del>
+                                <ins>
+                                    <span>150.000VNĐ</span>
+                                </ins>
+                            </span>
+                            <a href="page/single-gift.html" class="btn btn-add-to-card product__list-item-info-link">Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Product -->
+
+    <!-- Section Blog -->
+    <section class="section section-blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="block-title text-center">
+                        <h2 class="title">Latest News and Blogs</h2>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row blog__list">
+                <div class="col-md-6 col-lg-4 blog__list-item">
+                    <div class="blog__list-item-wrap">
+                        <div class="blog__list-item-thumbail">
+                            <a href="page/single.html" class="blog__list-item-thumbail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/image-blog.jpg" alt="" class="blog__list-item-thumbail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blog__list-item-box-content">
+                            <span class="blog__list-item-box-content-date">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                May 30, 2018
+                            </span>
+                            <h3 class="blog__list-item-box-content-title">
+                                <a href="page/single.html">How to choose the right gift</a>
+                            </h3>
+                            <a href="page/single.html" class="btn btn-read-more blog__list-item-box-content-link">Đọc tiếp</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 blog__list-item">
+                    <div class="blog__list-item-wrap">
+                        <div class="blog__list-item-thumbail">
+                            <a href="page/single.html" class="blog__list-item-thumbail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/image-blog.jpg" alt="" class="blog__list-item-thumbail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blog__list-item-box-content">
+                            <span class="blog__list-item-box-content-date">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                May 30, 2018
+                            </span>
+                            <h3 class="blog__list-item-box-content-title">
+                                <a href="page/single.html">How to choose the right gift</a>
+                            </h3>
+                            <a href="page/single.html" class="btn btn-read-more blog__list-item-box-content-link">Đọc tiếp</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 blog__list-item">
+                    <div class="blog__list-item-wrap">
+                        <div class="blog__list-item-thumbail">
+                            <a href="page/single.html" class="blog__list-item-thumbail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/image-blog.jpg" alt="" class="blog__list-item-thumbail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blog__list-item-box-content">
+                            <span class="blog__list-item-box-content-date">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                May 30, 2018
+                            </span>
+                            <h3 class="blog__list-item-box-content-title">
+                                <a href="page/single.html">How to choose the right gift</a>
+                            </h3>
+                            <a href="page/single.html" class="btn btn-read-more blog__list-item-box-content-link">Đọc tiếp</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 blog__list-item">
+                    <div class="blog__list-item-wrap">
+                        <div class="blog__list-item-thumbail">
+                            <a href="page/single.html" class="blog__list-item-thumbail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/image-blog.jpg" alt="" class="blog__list-item-thumbail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blog__list-item-box-content">
+                            <span class="blog__list-item-box-content-date">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                May 30, 2018
+                            </span>
+                            <h3 class="blog__list-item-box-content-title">
+                                <a href="page/single.html">How to choose the right gift</a>
+                            </h3>
+                            <a href="page/single.html" class="btn btn-read-more blog__list-item-box-content-link">Đọc tiếp</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 blog__list-item">
+                    <div class="blog__list-item-wrap">
+                        <div class="blog__list-item-thumbail">
+                            <a href="page/single.html" class="blog__list-item-thumbail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/image-blog.jpg" alt="" class="blog__list-item-thumbail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blog__list-item-box-content">
+                            <span class="blog__list-item-box-content-date">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                May 30, 2018
+                            </span>
+                            <h3 class="blog__list-item-box-content-title">
+                                <a href="page/single.html">How to choose the right gift</a>
+                            </h3>
+                            <a href="page/single.html" class="btn btn-read-more blog__list-item-box-content-link">Đọc tiếp</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 blog__list-item">
+                    <div class="blog__list-item-wrap">
+                        <div class="blog__list-item-thumbail">
+                            <a href="page/single.html" class="blog__list-item-thumbail-link">
+                                <div class="img-wrap">
+                                    <img src="assets/images/image-blog.jpg" alt="" class="blog__list-item-thumbail-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blog__list-item-box-content">
+                            <span class="blog__list-item-box-content-date">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                May 30, 2018
+                            </span>
+                            <h3 class="blog__list-item-box-content-title">
+                                <a href="page/single.html">How to choose the right gift</a>
+                            </h3>
+                            <a href="page/single.html" class="btn btn-read-more blog__list-item-box-content-link">Đọc tiếp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Blog -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer__main">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-3">
+                                <div class="footer__widget">
+                                    <h3 class="footer__widget-title footer__widget-title-info">TIBE</h3>
+                                    <div class="footer__widget-box-content">
+                                        <p>196 Newmarket Road, Wilston 4051 Brisbane Queensland</p>
+                                        <p>PARKING IN FRONT & BEHIND STORE</p>
+                                        <p>phone: 07 3856 2000</p>
+                                        <p>email: divine@divineflowers.com.au</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="footer__widget">
+                                    <h3 class="footer__widget-title">Liên kết hữu ích</h3>
+                                    <ul class="footer__widget-list">
+                                        <li class="menu-item">
+                                            <a href="page/about.html">Giới thiệu</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="page/blog.html">Blog</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="page/faq.html">FAQ</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="page/contact.html">Liên hệ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="footer__widget">
+                                    <h3 class="footer__widget-title">Quà tặng</h3>
+                                    <ul class="footer__widget-list">
+                                        <li class="menu-item">
+                                            <a href="page/gift.html">Quà tặng bạn nam</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="page/gift.html">Quà tặng bạn nữ</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="page/gift.html">Quà tặng bạn bè</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="page/gift.html">Quà tặng gia đình</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="footer__widget">
+                                    <h3 class="footer__widget-title">Theo dõi chúng tôi</h3>
+                                    <ul class="footer__widget-list-social">
+                                        <li class="footer__widget-list-social-item">
+                                            <a href="">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li class="footer__widget-list-social-item">
+                                            <a href="">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="footer__widget-list-social-item">
+                                            <a href="">
+                                                <i class="fa-brands fa-tiktok"></i>
+                                            </a>
+                                        </li>
+                                        <li class="footer__widget-list-social-item">
+                                            <a href="">
+                                                <i class="fa-solid fa-shop header__social-list-item-icon"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer__copyright">
+                        <p>Copyright © 2022 Tibe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+    <!-- End Overlay -->
+
+    <!-- Script -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/libs/slick/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
